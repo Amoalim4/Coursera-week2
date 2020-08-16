@@ -1,0 +1,157 @@
+* {
+   box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to right top, #473720, #F7A638);
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+
+div {
+  
+  background: linear-gradient(to right, #aaa101,#19d7f8);
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 2px;
+  width: 100%;
+  margin: auto;
+}
+
+section {
+  position: relative;
+  padding: 1px;
+  width: 100%;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  clear: right;
+}
+#food1 {
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  color: #fff;
+  width: 190px;
+  padding: 5px;
+  margin: 0px;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 125%;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #000080;
+}
+#food2 {
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  color:#fff;
+  cursor: pointer;
+  width: 190px;
+  padding: 5px;
+  margin: 0px;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 125%;
+  font-weight: bold;
+  background-image: linear-gradient(#424551,#424551),radial-gradient(circle at top left,#000000,#19d7f8);
+}
+#food3 {
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  color: #fff;
+  width: 210px;
+  padding: 5px;
+  margin: 0px;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 125%;
+  font-weight: bold;
+  background-color: #ffa500;
+  cursor: pointer;
+}
+
+#food_content {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  color: #000000;
+  margin: 0px;
+  height: 200px;
+  overflow: auto;
+}
+
+/* this isn't part of the assignment it's just additional link 
+to the course */
+/* -------------------------------------------------------------*/
+h2{
+  cursor: pointer;
+  color: rgb(25,175,215,1);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+a{
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  text-decoration: none;
+}
+/* -------------------------------------------------------------*/
+
+.row {
+  width: 90%;
+}
+/* from here is the style of who the viewers sees from
+diffrent typs of devics */ 
+
+/* DESKTOP MODE */
+
+@media (min-width: 992px) {
+  .column-lg {
+    float: left;
+    width: 33.33%;
+  }
+}
+/* TABLET MODE */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .colmn-md-1 {
+    float: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .colmn-md-2 {
+    float: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* MOBILE MODE */
+@media (max-width: 767px) {
+  .colmn-sm {
+    float: left;
+    width: 100%;
+  }
+}
+
+section {
+  position: relative;
+  padding: 15px;
+  width: 100%;
+}
